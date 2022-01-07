@@ -13,7 +13,7 @@ while part not in ['A', 'B', 'C', 'D', 'E']:
 
 os.system('clear')
 
-dna = ["ACTGAAAGTG", "CTGAAAGT", "GGAAAGCC" "TTAACCGAAAG", "ACD"]
+dna = ["ACTGAAAGTG", "CTGAAAGT", "GGAAAGCC", "TTAACCGAAAG", "ACD"]
 
 if part == "A":
   from Antcheck import isDNA
