@@ -3,4 +3,10 @@ Define a function isDNA that takes a single string as an input. The string is su
 """
 
 def isDNA(dna):
-  pass  # delete this line when you start writing your code
+  dna.upper()
+  for nucleo in dna:
+    if nucleo == "A" or nucleo == "C" or nucleo == "G" or nucleo == "T":
+      continue 
+    else: 
+      return False
+  return True  
